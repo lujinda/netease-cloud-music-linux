@@ -1,0 +1,14 @@
+{
+  "name": "netease-cloud-music",
+  "productName": "网易云音乐",
+  "version": "1.0.0",
+  "description": "网易云音乐网页播放器 (music.163.com/st/webplayer) 的 Linux 桌面封装",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "latest"
+  }
+}

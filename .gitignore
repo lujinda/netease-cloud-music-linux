@@ -1,0 +1,4 @@
+node_modules/
+electron/
+*.deb
+*.log

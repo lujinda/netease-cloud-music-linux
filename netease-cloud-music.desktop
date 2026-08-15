@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=网易云音乐
+Name[en]=NetEase Cloud Music
+Comment=网易云音乐网页播放器桌面版
+Comment[en]=NetEase Cloud Music web player
+Exec=/opt/netease-cloud-music/run.sh
+Icon=netease-cloud-music
+Terminal=false
+Type=Application
+Categories=AudioVideo;Audio;Music;Player;
+Keywords=music;netease;player;
+StartupWMClass=netease-music
