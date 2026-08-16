@@ -142,7 +142,7 @@ class TrayService:
         if prop == 'Id':
             return GLib.Variant('s', 'netease-cloud-music')
         if prop == 'Title':
-            return GLib.Variant('s', '网易云音乐')
+            return GLib.Variant('s', '网易云音乐(非官方封装)')
         if prop == 'Status':
             return GLib.Variant('s', 'Active')
         if prop == 'WindowId':
@@ -159,7 +159,7 @@ class TrayService:
             w, h, data = ICON_PIXMAP
             return GLib.Variant('a(iiay)', [(w, h, data)])
         if prop == 'ToolTip':
-            return GLib.Variant('(sa(iiay)ss)', ('', [], '网易云音乐', ''))
+            return GLib.Variant('(sa(iiay)ss)', ('', [], '网易云音乐(非官方封装)', ''))
         if prop == 'Menu':
             return GLib.Variant('o', '/MenuBar')
         return None
@@ -176,7 +176,7 @@ class TrayService:
         children = [
             self._item(MENU_TOGGLE, {'label': '显示 / 隐藏主窗口'}),
             self._item(MENU_SEP, {'type': 'separator'}),
-            self._item(MENU_QUIT, {'label': '退出网易云音乐'}),
+            self._item(MENU_QUIT, {'label': '退出'}),
         ]
         return (0, {'children-display': GLib.Variant('s', 'submenu')}, children)
 

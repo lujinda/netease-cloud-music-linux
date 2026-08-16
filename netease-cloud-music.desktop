@@ -1,8 +1,8 @@
 [Desktop Entry]
-Name=网易云音乐
-Name[en]=NetEase Cloud Music
-Comment=网易云音乐网页播放器桌面版
-Comment[en]=NetEase Cloud Music web player
+Name=网易云音乐 · 非官方封装
+Name[en]=NetEase Cloud Music (unofficial wrapper)
+Comment=网易云音乐网页播放器的非官方桌面封装
+Comment[en]=Unofficial desktop wrapper for the NetEase Cloud Music web player
 Exec=/opt/netease-cloud-music/run.sh
 Icon=netease-cloud-music
 Terminal=false
