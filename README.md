@@ -25,7 +25,7 @@ npm install
 
 ```bash
 npm install                 # 下载 Electron 运行时
-./packaging/build-deb.sh    # 产出 netease-cloud-music-web_<ver>_amd64.deb
+./packaging/build-deb.sh    # 产出 netease-cloud-music-linux_<ver>_amd64.deb
 ```
 
 ## 卸载
